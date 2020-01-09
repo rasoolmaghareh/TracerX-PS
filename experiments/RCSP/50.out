@@ -1,0 +1,21 @@
+ppp NEW PHASE previous 0 bound 732 (known 0, bsf 1465, search space 8) --------------------
+ppp NEW PHASE previous 0 bound 338 (known 0, bsf 677, search space 19) --------------------
+
+
+ppp NEW PHASE previous 0 bound 166 (known 0, bsf 332, search space 675) --------------------
+ppp NEW PHASE previous 0 bound 64 (known 0, bsf 129, search space 1672) --------------------
+ppp NEW PHASE previous 1 bound 96 (known 64, bsf 129, search space 2898) --------------------
+
+OPTIMAL SOLUTION at 129:
+Output NDL: rcsp1.ndl
+Bound for NDL:240000
+Output NDL: rcsp2.ndl
+Bound for NDL:732
+Output NDL: rcsp3.ndl
+Bound for NDL:338
+Output NDL: rcsp4.ndl
+Bound for NDL:166
+Output NDL: rcsp5.ndl
+Bound for NDL:64
+Output NDL: rcsp6.ndl
+Bound for NDL:129

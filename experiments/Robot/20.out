@@ -1,0 +1,41 @@
+Node  1: Res =  3: Type =  0: edges:    0 328 648  66  14 442 799 528 197 455  85 564 748 186 328 711 598 841  518888
+Node  2: Res =  4: Type =  1: edges:    0   0 908 103 327 118 832 804 389 340 592  28 667 986  94 426 425 892 953 622
+Node  3: Res =  2: Type =  0: edges:    0   0   0 183 837 220 510 545 563  94 595 252 984 720 157  84  44 274 662 847
+Node  4: Res =  5: Type =  0: edges:    0   0   0   0 183 182 411 914 275 836 336 912 786 9571001 566 885 835 531 138
+Node  5: Res =  3: Type =  1: edges:    0   0   0   0   0 979 971 342 961 689 245 790 478 264 449  69 672 193 999 853
+Node  6: Res =  4: Type =  1: edges:    0   0   0   0   0   0 873 182 991 782 713 692 780  22 320 358 552 458 734 642
+Node  7: Res =  9: Type =  0: edges:    0   0   0   0   0   0   0 730 138 882 974 674 104 235 868 920 652  59 662 248
+Node  8: Res =  4: Type =  1: edges:    0   0   0   0   0   0   0   0 118 335 303 645 793 740 168 815  58 525 364 515
+Node  9: Res =  6: Type =  1: edges:    0   0   0   0   0   0   0   0   0 694 450 479 578  75 196 249 178 430 114 843
+Node 10: Res =  1: Type =  0: edges:    0   0   0   0   0   0   0   0   0   0 502  73 325 816 939 405 865 581 195 602
+Node 11: Res =  2: Type =  1: edges:    0   0   0   0   0   0   0   0   0   0   0 659  17 371 919  19 120 611 468 344
+Node 12: Res =  8: Type =  1: edges:    0   0   0   0   0   0   0   0   0   0   0   0 539 180 212 714 293  52 539 211
+Node 13: Res =  3: Type =  1: edges:    0   0   0   0   0   0   0   0   0   0   0   0   0 535 113  40 939 723 366 131
+Node 14: Res =  5: Type =  1: edges:    0   0   0   0   0   0   0   0   0   0   0   0   0   0 138 727 877 254 644 895
+Node 15: Res =  4: Type =  1: edges:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 106 462 931 393 746
+Node 16: Res =  2: Type =  0: edges:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 457 400 656 742
+Node 17: Res =  2: Type =  1: edges:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 845 890 813
+Node 18: Res =  1: Type =  1: edges:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 280 247
+Node 19: Res =  4: Type =  1: edges:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 105
+Node 20: Res =  3: Type =  0: edges:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+=========================================================================
+Output NDL: robot1.ndl
+Bound for NDL:240000
+Output NDL: robot2.ndl
+Bound for NDL:412
+Output NDL: robot3.ndl
+Bound for NDL:78
+Output NDL: robot4.ndl
+Bound for NDL:102
+Output NDL: robot5.ndl
+Bound for NDL:129
+Output NDL: robot6.ndl
+Bound for NDL:142
+Output NDL: robot7.ndl
+Bound for NDL:149
+Output NDL: robot8.ndl
+Bound for NDL:152
+Output NDL: robot9.ndl
+Bound for NDL:154
+Output NDL: robot10.ndl
+Bound for NDL:155

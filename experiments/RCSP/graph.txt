@@ -1,0 +1,10 @@
+Node  1 Res =  9 edges:     0  328  648   66   14  442  799  528  197 8888
+Node  2 Res =  8 edges:     0    0  564  748  186  328  711  598  841   51
+Node  3 Res =  8 edges:     0    0    0  143  380  908  103  327  118  832
+Node  4 Res =  2 edges:     0    0    0    0  389  340  592   28  667  986
+Node  5 Res =  4 edges:     0    0    0    0    0  426  425  892  953  622
+Node  6 Res =  2 edges:     0    0    0    0    0    0   35  183  837  220
+Node  7 Res =  1 edges:     0    0    0    0    0    0    0  545  563   94
+Node  8 Res =  4 edges:     0    0    0    0    0    0    0    0  252  984
+Node  9 Res = 10 edges:     0    0    0    0    0    0    0    0    0  157
+Node 10 Res =  6 edges:     0    0    0    0    0    0    0    0    0    0

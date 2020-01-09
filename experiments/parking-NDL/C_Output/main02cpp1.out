@@ -1,0 +1,18 @@
+Now CHECKING: 10 0 1
+Checking length: 5
+Solutions: 1
+Solution found at: 5
+Round Execution time: 2.49321
+Now CHECKING: 5 0 1
+Checking length: 2
+Solutions: 0
+No solution found at: 2
+Round Execution time: 2.49642
+Now CHECKING: 5 2 0.6
+Checking length: 3
+Solutions: 0
+No solution found at: 3
+Round Execution time: 2.56305
+Now CHECKING: 5 3 0.4
+Optimal Solution: 5
+Total execution time: 2.56307

@@ -1,0 +1,47 @@
+type object = {n0, n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, n21, n22, n23, n24, n25, n26, n27, n28, n29};
+type subset = {n0, n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, n21, n22, n23, n24, n25, n26, n27, n28, n29};
+
+decl value[subset] : real;
+decl total_value : real;
+
+
+initial
+total_value := 0;
+value(n0) := 7120;
+value(n1) := 4760;
+value(n2) := 8110;
+value(n3) := 30025;
+value(n4) := 18980;
+value(n5) := 4190;
+value(n6) := 13765;
+value(n7) := 26145;
+value(n8) := 6560;
+value(n9) := 18850;
+value(n10) := 30620;
+value(n11) := 11200;
+value(n12) := 5910;
+value(n13) := 30605;
+value(n14) := 22390;
+value(n15) := 73320;
+value(n16) := 7220;
+value(n17) := 11945;
+value(n18) := 11075;
+value(n19) := 12415;
+value(n20) := 7125;
+value(n21) := 4765;
+value(n22) := 8115;
+value(n23) := 30025;
+value(n24) := 18980;
+value(n25) := 4195;
+value(n26) := 13765;
+value(n27) := 26145;
+value(n28) := 6560;
+value(n29) := 18850;
+
+goal (total_value = 246866 );
+
+action pick(f : subset)
+(value(f) != 0)
+=>
+total_value := total_value + value(f);
+value(f) := 0;

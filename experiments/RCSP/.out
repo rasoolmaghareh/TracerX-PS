@@ -1,0 +1,16 @@
+	ppp ~~~~~-> Resource Violation 25 
+ppp NEW PHASE previous 0 bound 984 (known 0, bsf 1968, search space 7) --------------------
+	ppp ~~~~~-> Resource Violation 25 
+ppp NEW PHASE previous 0 bound 266 (known 0, bsf 533, search space 16) --------------------
+	ppp ~~~~~-> Resource Violation 25 
+	ppp ~~~~~-> Resource Violation 26 
+	ppp ~~~~~-> Resource Violation 22 
+ppp NEW PHASE previous 1 bound 322 (known 266, bsf 379, search space 62) --------------------
+	ppp ~~~~~-> Resource Violation 25 
+	ppp ~~~~~-> Resource Violation 26 
+	ppp ~~~~~-> Resource Violation 22 
+OPTIMAL SOLUTION at 379:
+Output NDL: rcsp1.ndl
+Output NDL: rcsp2.ndl
+Output NDL: rcsp3.ndl
+Output NDL: rcsp4.ndl
