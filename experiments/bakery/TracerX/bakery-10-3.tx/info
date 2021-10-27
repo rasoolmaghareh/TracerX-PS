@@ -1,0 +1,3 @@
+klee -wp-interpolant -use-query-log=all:pc,all:smt2 -no-output -only-output-states-covering-new -search=dfs -allocate-determ -solver-backend=z3 -output-dir=bakery-10-3.tx bakery.bc
+PID: 11655
+Started: 2020-06-20 14:28:14

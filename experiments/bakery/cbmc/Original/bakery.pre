@@ -1,0 +1,4 @@
+#include <klee/klee.h>
+#include <stdio.h>
+
+#define INF 999999

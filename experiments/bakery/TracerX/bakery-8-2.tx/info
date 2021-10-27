@@ -1,0 +1,68 @@
+klee -wp-interpolant -use-query-log=all:pc,all:smt2 -no-output -only-output-states-covering-new -search=dfs -allocate-determ -solver-backend=z3 -output-dir=bakery-8-2.tx bakery.bc
+PID: 6531
+Started: 2020-06-19 23:42:24
+BEGIN searcher description
+DFSSearcher
+END searcher description
+Finished: 2020-06-19 23:48:39
+Elapsed: 00:06:15
+KLEE: done: explored paths = 5052
+KLEE: done: avg. constructs per query = 22
+KLEE: done: total queries = 108
+KLEE: done: valid queries = 12
+KLEE: done: invalid queries = 96
+KLEE: done: query cex = 108
+KLEE: done: Total reduced symbolic execution tree nodes = 10103
+KLEE: done: Total number of visited basic blocks = 117599
+
+KLEE: done: Subsumption statistics
+KLEE: done:     Time for actual solver calls in subsumption check (ms) = 0
+KLEE: done:     Number of solver calls for subsumption check (failed) = 0 (0)
+KLEE: done:     Concrete store expression build time (ms) = 3271.61
+KLEE: done:     Symbolic store expression build time (ms) = 0.418
+KLEE: done:     Solver access time (ms) = 450.667
+KLEE: done:     Average table entries per subsumption checkpoint = 1867.00
+KLEE: done:     Number of subsumption checks = 10103
+KLEE: done:     Average solver calls per subsumption check = 0.00
+
+KLEE: done: TxTree method execution times (ms):
+KLEE: done:     setCurrentINode = 31.411
+KLEE: done:     remove = 467.762
+KLEE: done:     subsumptionCheck = 367954
+KLEE: done:     markPathCondition = 596.202
+KLEE: done:     split = 34.43
+KLEE: done:     executeOnNode = 714.555
+KLEE: done:     executeMemoryOperation = 404.245
+
+KLEE: done: TxTreeNode method execution times (ms):
+KLEE: done:     getInterpolant = 13.722
+KLEE: done:     get WP Interpolant = 308.862
+KLEE: done:     addConstraintTime = 7.726
+KLEE: done:     splitTime = 33.835
+KLEE: done:     execute = 695.878
+KLEE: done:     bindCallArguments = 4.333
+KLEE: done:     bindReturnValue = 1.056
+KLEE: done:     getStoredExpressions = 19.667
+KLEE: done:     getStoredCoreExpressions = 56.076
+
+KLEE: done: total instructions = 490617
+KLEE: done: completed paths = 5052, among which
+KLEE: done:     early-terminating paths (instruction time limit, solver timeout, max-depth reached) = 0
+KLEE: done:     average branching depth of completed paths = 29.5855
+KLEE: done:     average branching depth of subsumed paths = 30.1262
+KLEE: done:     average instructions of completed paths = 2051.04
+KLEE: done:     average instructions of subsumed paths = 1534.98
+KLEE: done:     subsumed paths = 4502
+KLEE: done:     error paths = 0
+KLEE: done:     program exit paths = 550
+KLEE: done: generated tests = 0, among which
+KLEE: done:     early-terminating tests (instruction time limit, solver timeout, max-depth reached) = 0
+KLEE: done:     error tests = 0
+KLEE: done:     program exit tests = 0
+
+KLEE: done: NOTE:
+KLEE: done:     Subsumed paths / tests counts are nondeterministic for
+KLEE: done:     programs with dynamically-allocated memory such as those
+KLEE: done:     using malloc, since KLEE may reuse the address of the
+KLEE: done:     same malloc calls in different paths. This nondeterminism
+KLEE: done:     does not cause loss of error reports.

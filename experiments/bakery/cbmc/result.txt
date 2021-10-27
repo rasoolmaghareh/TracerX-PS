@@ -1,0 +1,452 @@
+Running N:2, Limit:1
+Running N:2, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	60m0.217s
+user	59m56.821s
+sys	0m1.320s
+Running N:3, Limit:1
+Running N:3, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	60m0.214s
+user	59m58.112s
+sys	0m1.159s
+Running N:4, Limit:1
+Running N:4, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	60m0.211s
+user	59m55.145s
+sys	0m1.236s
+Running N:5, Limit:1
+Running N:5, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	60m0.229s
+user	59m56.520s
+sys	0m2.620s
+Running N:6, Limit:1
+Running N:6, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+Running N:2, Limit:1
+Running N:2, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.426s
+user	0m0.096s
+sys	0m0.007s
+Running N:2, Limit:2
+Running N:2, Limit:2
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.052s
+user	0m0.046s
+sys	0m0.006s
+Running N:2, Limit:3
+Running N:2, Limit:3
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.060s
+user	0m0.054s
+sys	0m0.007s
+Running N:3, Limit:1
+Running N:3, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.036s
+user	0m0.033s
+sys	0m0.003s
+Running N:3, Limit:2
+Running N:3, Limit:2
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.047s
+user	0m0.045s
+sys	0m0.002s
+Running N:3, Limit:3
+Running N:3, Limit:3
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.064s
+user	0m0.062s
+sys	0m0.003s
+Running N:4, Limit:1
+Running N:4, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.036s
+user	0m0.036s
+sys	0m0.001s
+Running N:4, Limit:2
+Running N:4, Limit:2
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.046s
+user	0m0.042s
+sys	0m0.004s
+Running N:4, Limit:3
+Running N:4, Limit:3
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.066s
+user	0m0.063s
+sys	0m0.004s
+Running N:4, Limit:4
+Running N:4, Limit:4
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.092s
+user	0m0.089s
+sys	0m0.004s
+Running N:2, Limit:1
+Running N:2, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.087s
+user	0m0.045s
+sys	0m0.016s
+Running N:2, Limit:2
+Running N:2, Limit:2
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.049s
+user	0m0.049s
+sys	0m0.001s
+Running N:2, Limit:3
+Running N:2, Limit:3
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.060s
+user	0m0.057s
+sys	0m0.004s
+Running N:3, Limit:1
+Running N:3, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.036s
+user	0m0.025s
+sys	0m0.011s
+Running N:3, Limit:2
+Running N:3, Limit:2
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.046s
+user	0m0.042s
+sys	0m0.005s
+Running N:3, Limit:3
+Running N:3, Limit:3
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.065s
+user	0m0.057s
+sys	0m0.009s
+Running N:4, Limit:1
+Running N:4, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.036s
+user	0m0.036s
+sys	0m0.001s
+Running N:4, Limit:2
+Running N:4, Limit:2
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.047s
+user	0m0.042s
+sys	0m0.006s
+Running N:4, Limit:3
+Running N:4, Limit:3
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.066s
+user	0m0.057s
+sys	0m0.010s
+Running N:4, Limit:4
+Running N:4, Limit:4
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.092s
+user	0m0.082s
+sys	0m0.011s
+Running N:2, Limit:1
+Running N:2, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.084s
+user	0m0.055s
+sys	0m0.000s
+Running N:2, Limit:2
+Running N:2, Limit:2
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.075s
+user	0m0.065s
+sys	0m0.011s
+Running N:2, Limit:3
+Running N:2, Limit:3
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.060s
+user	0m0.053s
+sys	0m0.007s
+Running N:3, Limit:1
+Running N:3, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.036s
+user	0m0.030s
+sys	0m0.006s
+Running N:3, Limit:2
+Running N:3, Limit:2
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.046s
+user	0m0.046s
+sys	0m0.001s
+Running N:3, Limit:3
+Running N:3, Limit:3
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.065s
+user	0m0.060s
+sys	0m0.005s
+Running N:4, Limit:1
+Running N:4, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.036s
+user	0m0.036s
+sys	0m0.000s
+Running N:4, Limit:2
+Running N:4, Limit:2
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.050s
+user	0m0.044s
+sys	0m0.007s
+Running N:4, Limit:3
+Running N:4, Limit:3
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.066s
+user	0m0.064s
+sys	0m0.004s
+Running N:4, Limit:4
+Running N:4, Limit:4
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.092s
+user	0m0.085s
+sys	0m0.009s
+Running N:2, Limit:1
+Running N:2, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.055s
+user	0m0.053s
+sys	0m0.003s
+Running N:2, Limit:1
+Running N:2, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.045s
+user	0m0.039s
+sys	0m0.007s
+Running N:2, Limit:1
+Running N:2, Limit:1
+file bakery.c line 30 function main: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `bakery' file bakery.c line 30 function main
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.062s
+user	0m0.055s
+sys	0m0.008s

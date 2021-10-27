@@ -1,0 +1,5 @@
+./run-benchmark.sh: line 10: 28577 Segmentation fault: 11  ./a.out > bakery-manual-$1-$2.out
+
+real	0m5.001s
+user	0m0.001s
+sys	0m0.068s

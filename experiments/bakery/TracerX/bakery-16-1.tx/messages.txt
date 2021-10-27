@@ -1,0 +1,5 @@
+KLEE: Logging all queries in .pc format to /home/rasool/POPL2021-CONCUR/bakery-tx/bakery-16-1.tx/all-queries.pc
+
+KLEE: Logging all queries in .smt2 format to /home/rasool/POPL2021-CONCUR/bakery-tx/bakery-16-1.tx/all-queries.smt2
+
+KLEE: Deterministic memory allocation starting from 0x7ff30000000

@@ -1,0 +1,5 @@
+./run-benchmark.sh: line 10: 20639 Segmentation fault      (core dumped) ./a.out > bakery-manual-$1-$2.out
+
+real	0m0.091s
+user	0m0.009s
+sys	0m0.000s
