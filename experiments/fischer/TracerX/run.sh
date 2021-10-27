@@ -1,0 +1,16 @@
+./run-benchmark.sh 2 3
+./run-benchmark.sh 3 6
+./run-benchmark.sh 4 6
+./run-benchmark.sh 5 6
+./run-benchmark.sh 6 6
+./run-benchmark.sh 7 6
+./run-benchmark.sh 8 6
+./run-benchmark.sh 9 6
+./run-benchmark.sh 10 6
+./run-benchmark.sh 11 6
+./run-benchmark.sh 12 6
+./run-benchmark.sh 13 6
+./run-benchmark.sh 6 7
+./run-benchmark.sh 6 8
+./run-benchmark.sh 6 9
+./run-benchmark.sh 6 10

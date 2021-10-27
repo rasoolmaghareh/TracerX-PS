@@ -1,0 +1,6 @@
+KLEE: Logging all queries in .pc format to /home/rasool/POPL2021-CONCUR/railroad-tx/railroad-3.tx/all-queries.pc
+
+KLEE: Logging all queries in .smt2 format to /home/rasool/POPL2021-CONCUR/railroad-tx/railroad-3.tx/all-queries.smt2
+
+KLEE: Memory cap NOT exceeded!
+

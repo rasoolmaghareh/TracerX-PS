@@ -1,0 +1,136 @@
+digraph search_tree {
+Node1 [shape=record,label="{1: main\l  %retval = alloca i32, align 4\l(id[3].id[2].id[1].id[0] \< 3) ITP\l|{<s0>F|<s1>T}}"];
+Node1:s0 -> Node3;
+Node1:s1 -> InternalNode1;
+Node3 [shape=record,label="{3: main\lrailroad.c:33
+\l(0 = id[3].id[2].id[1].id[0])\l(id_1[3].id_1[2].id_1[1].id_1[0] \< 3) ITP\l|{<s0>F|<s1>T}}"];
+Node3:s0 -> InternalNode2;
+Node3:s1 -> Node33;
+InternalNode2 [shape=record,label="{Internal node 2: \l|{<s0>F|<s1>T}}"];
+InternalNode2:s0 -> Node4;
+InternalNode2:s1 -> Node32;
+Node4 [shape=record,label="{4: main\lrailroad.c:35
+\l(2 = id_1[3].id_1[2].id_1[1].id_1[0])\l(id_2[3].id_2[2].id_2[1].id_2[0] \< 3) ITP\l|{<s0>F|<s1>T}}"];
+Node4:s0 -> InternalNode3;
+Node4:s1 -> Node31;
+InternalNode3 [shape=record,label="{Internal node 3: \l|{<s0>F|<s1>T}}"];
+InternalNode3:s0 -> Node5;
+InternalNode3:s1 -> Node30;
+Node5 [shape=record,label="{5: main\lrailroad.c:35
+\l(id_3[3].id_3[2].id_3[1].id_3[0] \< 3) ITP\l(2 = id_2[3].id_2[2].id_2[1].id_2[0])\l|{<s0>F|<s1>T}}"];
+Node5:s0 -> InternalNode4;
+Node5:s1 -> Node17;
+InternalNode4 [shape=record,label="{Internal node 4: \l|{<s0>F|<s1>T}}"];
+InternalNode4:s0 -> Node6;
+InternalNode4:s1 -> Node7;
+Node6 [shape=record,label="{6: main\lrailroad.c:35
+\l(2 = id_3[3].id_3[2].id_3[1].id_3[0])\l(terminal #2)\l}"];
+Node7 [shape=record,label="{7: main\lrailroad.c:33
+\l(id_4[3].id_4[2].id_4[1].id_4[0] \< 3) ITP\l(0 = id_3[3].id_3[2].id_3[1].id_3[0])\l|{<s0>F|<s1>T}}"];
+Node7:s0 -> InternalNode5;
+Node7:s1 -> Node10;
+InternalNode5 [shape=record,label="{Internal node 5: \l|{<s0>F|<s1>T}}"];
+InternalNode5:s0 -> Node8;
+InternalNode5:s1 -> Node9;
+Node8 [shape=record,label="{8: main\lrailroad.c:35
+\l(2 = id_4[3].id_4[2].id_4[1].id_4[0])\l(subsumed)\l}"];
+Node9 [shape=record,label="{9: main\lrailroad.c:33
+\l(0 = id_4[3].id_4[2].id_4[1].id_4[0])\l(terminal #4)\l}"];
+Node10 [shape=record,label="{10: main\lrailroad.c:34
+\l(id_5[3].id_5[2].id_5[1].id_5[0] \< 3) ITP\l(1 = id_4[3].id_4[2].id_4[1].id_4[0])\l|{<s0>F|<s1>T}}"];
+Node10:s0 -> InternalNode6;
+Node10:s1 -> Node13;
+InternalNode6 [shape=record,label="{Internal node 6: \l|{<s0>F|<s1>T}}"];
+InternalNode6:s0 -> Node11;
+InternalNode6:s1 -> Node12;
+Node11 [shape=record,label="{11: main\lrailroad.c:35
+\l(2 = id_5[3].id_5[2].id_5[1].id_5[0])\l(subsumed)\l}"];
+Node12 [shape=record,label="{12: main\lrailroad.c:33
+\l(0 = id_5[3].id_5[2].id_5[1].id_5[0])\l(terminal #6)\l}"];
+Node13 [shape=record,label="{13: main\lrailroad.c:34
+\l(id_6[3].id_6[2].id_6[1].id_6[0] \< 3) ITP\l(1 = id_5[3].id_5[2].id_5[1].id_5[0])\l|{<s0>F|<s1>T}}"];
+Node13:s0 -> Node15;
+Node13:s1 -> InternalNode7;
+Node15 [shape=record,label="{15: main\lrailroad.c:33
+\l(0 = id_6[3].id_6[2].id_6[1].id_6[0])\l(terminal #8)\l}"];
+InternalNode7 [shape=record,label="{Internal node 7: \l|{<s0>F|<s1>T}}"];
+InternalNode7:s0 -> Node14;
+InternalNode7:s1 -> Node16;
+Node14 [shape=record,label="{14: main\lrailroad.c:35
+\l(2 = id_6[3].id_6[2].id_6[1].id_6[0])\l(subsumed)\l}"];
+Node16 [shape=record,label="{16: main\lrailroad.c:34
+\l(1 = id_6[3].id_6[2].id_6[1].id_6[0])\l(terminal #9)\l}"];
+Node17 [shape=record,label="{17: main\lrailroad.c:34
+\l(1 = id_3[3].id_3[2].id_3[1].id_3[0])\l(id_4[3].id_4[2].id_4[1].id_4[0] \< 3) ITP\l|{<s0>F|<s1>T}}"];
+Node17:s0 -> Node19;
+Node17:s1 -> InternalNode8;
+Node19 [shape=record,label="{19: main\lrailroad.c:33
+\l(0 = id_4[3].id_4[2].id_4[1].id_4[0])\l(id_5[3].id_5[2].id_5[1].id_5[0] \< 3) ITP\l|{<s0>F|<s1>T}}"];
+Node19:s0 -> Node21;
+Node19:s1 -> InternalNode9;
+Node21 [shape=record,label="{21: main\lrailroad.c:33
+\l(0 = id_5[3].id_5[2].id_5[1].id_5[0])\l(subsumed)\l}"];
+InternalNode9 [shape=record,label="{Internal node 9: \l|{<s0>F|<s1>T}}"];
+InternalNode9:s0 -> Node20;
+InternalNode9:s1 -> Node22;
+Node20 [shape=record,label="{20: main\lrailroad.c:35
+\l(2 = id_5[3].id_5[2].id_5[1].id_5[0])\l(subsumed)\l}"];
+Node22 [shape=record,label="{22: main\lrailroad.c:34
+\l(1 = id_5[3].id_5[2].id_5[1].id_5[0])\l(terminal #13)\l}"];
+InternalNode8 [shape=record,label="{Internal node 8: \l|{<s0>F|<s1>T}}"];
+InternalNode8:s0 -> Node18;
+InternalNode8:s1 -> Node23;
+Node18 [shape=record,label="{18: main\lrailroad.c:35
+\l(2 = id_4[3].id_4[2].id_4[1].id_4[0])\l(subsumed)\l}"];
+Node23 [shape=record,label="{23: main\lrailroad.c:34
+\l(1 = id_4[3].id_4[2].id_4[1].id_4[0])\l(id_5[3].id_5[2].id_5[1].id_5[0] \< 3) ITP\l|{<s0>F|<s1>T}}"];
+Node23:s0 -> Node25;
+Node23:s1 -> InternalNode10;
+Node25 [shape=record,label="{25: main\lrailroad.c:33
+\l(0 = id_5[3].id_5[2].id_5[1].id_5[0])\l(id_6[3].id_6[2].id_6[1].id_6[0] \< 3) ITP\l|{<s0>F|<s1>T}}"];
+Node25:s0 -> InternalNode11;
+Node25:s1 -> Node28;
+InternalNode11 [shape=record,label="{Internal node 11: \l|{<s0>F|<s1>T}}"];
+InternalNode11:s0 -> Node26;
+InternalNode11:s1 -> Node27;
+Node26 [shape=record,label="{26: main\lrailroad.c:35
+\l(2 = id_6[3].id_6[2].id_6[1].id_6[0])\l(subsumed)\l}"];
+Node27 [shape=record,label="{27: main\lrailroad.c:33
+\l(0 = id_6[3].id_6[2].id_6[1].id_6[0])\l(subsumed)\l}"];
+Node28 [shape=record,label="{28: main\lrailroad.c:34
+\l(1 = id_6[3].id_6[2].id_6[1].id_6[0])\l(subsumed)\l}"];
+InternalNode10 [shape=record,label="{Internal node 10: \l|{<s0>F|<s1>T}}"];
+InternalNode10:s0 -> Node24;
+InternalNode10:s1 -> Node29;
+Node24 [shape=record,label="{24: main\lrailroad.c:35
+\l(2 = id_5[3].id_5[2].id_5[1].id_5[0])\l(subsumed)\l}"];
+Node29 [shape=record,label="{29: main\lrailroad.c:34
+\l(1 = id_5[3].id_5[2].id_5[1].id_5[0])\l(subsumed)\l}"];
+Node30 [shape=record,label="{30: main\lrailroad.c:33
+\l(0 = id_2[3].id_2[2].id_2[1].id_2[0])\l(terminal #19)\l}"];
+Node31 [shape=record,label="{31: main\lrailroad.c:34
+\l(1 = id_2[3].id_2[2].id_2[1].id_2[0])\l(terminal #20)\l}"];
+Node32 [shape=record,label="{32: main\lrailroad.c:33
+\l(0 = id_1[3].id_1[2].id_1[1].id_1[0])\l(terminal #21)\l}"];
+Node33 [shape=record,label="{33: main\lrailroad.c:34
+\l(1 = id_1[3].id_1[2].id_1[1].id_1[0])\l(subsumed)\l}"];
+InternalNode1 [shape=record,label="{Internal node 1: \l|{<s0>F|<s1>T}}"];
+InternalNode1:s0 -> Node2;
+InternalNode1:s1 -> Node34;
+Node2 [shape=record,label="{2: main\lrailroad.c:35
+\l(2 = id[3].id[2].id[1].id[0])\l(terminal #1)\l}"];
+Node34 [shape=record,label="{34: main\lrailroad.c:34
+\l(1 = id[3].id[2].id[1].id[0])\l(terminal #23)\l}"];
+Node8 -> Node6 [style=dashed,label="1"];
+Node11 -> Node6 [style=dashed,label="2"];
+Node14 -> Node6 [style=dashed,label="3"];
+Node18 -> Node6 [style=dashed,label="4"];
+Node20 -> Node6 [style=dashed,label="5"];
+Node21 -> Node12 [style=dashed,label="6"];
+Node24 -> Node6 [style=dashed,label="7"];
+Node26 -> Node6 [style=dashed,label="8"];
+Node27 -> Node15 [style=dashed,label="9"];
+Node28 -> Node16 [style=dashed,label="10"];
+Node29 -> Node16 [style=dashed,label="11"];
+Node33 -> Node31 [style=dashed,label="12"];
+}

@@ -1,0 +1,41 @@
+Search(0, 3, 1, from -1): lock -1 tick 0 : < 0 0 > --- 0 0 
+Search(1, 3, 2, from 0): lock  0 tick 1 : < 1 0 > --- 1 0 
+Search(2, 3, 3, from 1): lock  0 tick 2 : < 1 0 > --- 1 0 
+Search(3, 3, 4, from 1): lock  0 tick 3 : < 2 0 > --- 1 0 
+Search(4, 3, 5, from 2): lock  0 tick 4 : < 3 0 > --- 1 0 
+CRITICAL id 0 lock 0 tick 5 limit 3
+Search(5, 2, 6, from 3): lock -1 tick 5 : < 0 0 > --- 1 0 
+Search(6, 2, 7, from 0): lock  0 tick 6 : < 1 0 > --- 6 0 
+Search(7, 2, 8, from 1): lock  0 tick 7 : < 1 0 > --- 6 0 
+Search(8, 2, 9, from 1): lock  0 tick 8 : < 2 0 > --- 6 0 
+Search(9, 2, 10, from 2): lock  0 tick 9 : < 3 0 > --- 6 0 
+CRITICAL id 0 lock 0 tick 10 limit 2
+Search(10, 1, 11, from 3): lock -1 tick 10 : < 0 0 > --- 6 0 
+Search(11, 1, 12, from 0): lock  0 tick 11 : < 1 0 > --- 11 0 
+Search(12, 1, 13, from 1): lock  0 tick 12 : < 1 0 > --- 11 0 
+Search(13, 1, 14, from 1): lock  0 tick 13 : < 2 0 > --- 11 0 
+Search(14, 1, 15, from 2): lock  0 tick 14 : < 3 0 > --- 11 0 
+CRITICAL id 0 lock 0 tick 15 limit 1
+Search(15, 0, 16, from 3): lock -1 tick 15 : < 0 0 > --- 11 0 
+Search(11, 1, 17, from 0): lock  1 tick 11 : < 0 1 > --- 6 11 
+Search(12, 1, 18, from 1): lock  1 tick 12 : < 0 1 > --- 6 11 
+Search(13, 1, 19, from 1): lock  1 tick 13 : < 0 2 > --- 6 11 
+Search(14, 1, 20, from 2): lock  1 tick 14 : < 0 3 > --- 6 11 
+CRITICAL id 1 lock 1 tick 15 limit 1
+Search(15, 0, 21, from 3): lock -1 tick 15 : < 0 0 > --- 6 11 
+Search(6, 2, 22, from 0): lock  1 tick 6 : < 0 1 > --- 1 6 
+Search(7, 2, 23, from 1): lock  1 tick 7 : < 0 1 > --- 1 6 
+Search(8, 2, 24, from 1): lock  1 tick 8 : < 0 2 > --- 1 6 
+Search(9, 2, 25, from 2): lock  1 tick 9 : < 0 3 > --- 1 6 
+CRITICAL id 1 lock 1 tick 10 limit 2
+Search(10, 1, 26, from 3): lock -1 tick 10 : < 0 0 > --- 1 6 
+Search(11, 1, 27, from 0): lock  0 tick 11 : < 1 0 > --- 11 6 
+Search(12, 1, 28, from 1): lock  0 tick 12 : < 1 0 > --- 11 6 
+Search(11, 1, 29, from 0): lock  1 tick 11 : < 0 1 > --- 1 11 
+Search(1, 3, 30, from 0): lock  1 tick 1 : < 0 1 > --- 0 1 
+Search(2, 3, 31, from 1): lock  1 tick 2 : < 0 1 > --- 0 1 
+Search(3, 3, 32, from 1): lock  1 tick 3 : < 0 2 > --- 0 1 
+Search(4, 3, 33, from 2): lock  1 tick 4 : < 0 3 > --- 0 1 
+CRITICAL id 1 lock 1 tick 5 limit 3
+Search(5, 2, 34, from 3): lock -1 tick 5 : < 0 0 > --- 0 1 
+FINAL: Searchspace 34 Table 7 Subcount 3 Nosub 29

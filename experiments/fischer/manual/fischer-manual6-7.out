@@ -1,0 +1,409 @@
+Search(0, 7, 1, from -1): lock -1 tick 0 : < 0 0 0 0 0 0 > --- 0 0 0 0 0 0 
+Search(1, 7, 2, from 0): lock  0 tick 1 : < 1 0 0 0 0 0 > --- 1 0 0 0 0 0 
+Search(2, 7, 3, from 1): lock  0 tick 2 : < 1 0 0 0 0 0 > --- 1 0 0 0 0 0 
+Search(3, 7, 4, from 1): lock  0 tick 3 : < 2 0 0 0 0 0 > --- 1 0 0 0 0 0 
+Search(4, 7, 5, from 2): lock  0 tick 4 : < 3 0 0 0 0 0 > --- 1 0 0 0 0 0 
+CRITICAL id 0 lock 0 tick 5 limit 7
+Search(5, 6, 6, from 3): lock -1 tick 5 : < 0 0 0 0 0 0 > --- 1 0 0 0 0 0 
+Search(6, 6, 7, from 0): lock  0 tick 6 : < 1 0 0 0 0 0 > --- 6 0 0 0 0 0 
+Search(7, 6, 8, from 1): lock  0 tick 7 : < 1 0 0 0 0 0 > --- 6 0 0 0 0 0 
+Search(8, 6, 9, from 1): lock  0 tick 8 : < 2 0 0 0 0 0 > --- 6 0 0 0 0 0 
+Search(9, 6, 10, from 2): lock  0 tick 9 : < 3 0 0 0 0 0 > --- 6 0 0 0 0 0 
+CRITICAL id 0 lock 0 tick 10 limit 6
+Search(10, 5, 11, from 3): lock -1 tick 10 : < 0 0 0 0 0 0 > --- 6 0 0 0 0 0 
+Search(11, 5, 12, from 0): lock  0 tick 11 : < 1 0 0 0 0 0 > --- 11 0 0 0 0 0 
+Search(12, 5, 13, from 1): lock  0 tick 12 : < 1 0 0 0 0 0 > --- 11 0 0 0 0 0 
+Search(13, 5, 14, from 1): lock  0 tick 13 : < 2 0 0 0 0 0 > --- 11 0 0 0 0 0 
+Search(14, 5, 15, from 2): lock  0 tick 14 : < 3 0 0 0 0 0 > --- 11 0 0 0 0 0 
+CRITICAL id 0 lock 0 tick 15 limit 5
+Search(15, 4, 16, from 3): lock -1 tick 15 : < 0 0 0 0 0 0 > --- 11 0 0 0 0 0 
+Search(16, 4, 17, from 0): lock  0 tick 16 : < 1 0 0 0 0 0 > --- 16 0 0 0 0 0 
+Search(17, 4, 18, from 1): lock  0 tick 17 : < 1 0 0 0 0 0 > --- 16 0 0 0 0 0 
+Search(18, 4, 19, from 1): lock  0 tick 18 : < 2 0 0 0 0 0 > --- 16 0 0 0 0 0 
+Search(19, 4, 20, from 2): lock  0 tick 19 : < 3 0 0 0 0 0 > --- 16 0 0 0 0 0 
+CRITICAL id 0 lock 0 tick 20 limit 4
+Search(20, 3, 21, from 3): lock -1 tick 20 : < 0 0 0 0 0 0 > --- 16 0 0 0 0 0 
+Search(21, 3, 22, from 0): lock  0 tick 21 : < 1 0 0 0 0 0 > --- 21 0 0 0 0 0 
+Search(22, 3, 23, from 1): lock  0 tick 22 : < 1 0 0 0 0 0 > --- 21 0 0 0 0 0 
+Search(23, 3, 24, from 1): lock  0 tick 23 : < 2 0 0 0 0 0 > --- 21 0 0 0 0 0 
+Search(24, 3, 25, from 2): lock  0 tick 24 : < 3 0 0 0 0 0 > --- 21 0 0 0 0 0 
+CRITICAL id 0 lock 0 tick 25 limit 3
+Search(25, 2, 26, from 3): lock -1 tick 25 : < 0 0 0 0 0 0 > --- 21 0 0 0 0 0 
+Search(26, 2, 27, from 0): lock  0 tick 26 : < 1 0 0 0 0 0 > --- 26 0 0 0 0 0 
+Search(27, 2, 28, from 1): lock  0 tick 27 : < 1 0 0 0 0 0 > --- 26 0 0 0 0 0 
+Search(28, 2, 29, from 1): lock  0 tick 28 : < 2 0 0 0 0 0 > --- 26 0 0 0 0 0 
+Search(29, 2, 30, from 2): lock  0 tick 29 : < 3 0 0 0 0 0 > --- 26 0 0 0 0 0 
+CRITICAL id 0 lock 0 tick 30 limit 2
+Search(30, 1, 31, from 3): lock -1 tick 30 : < 0 0 0 0 0 0 > --- 26 0 0 0 0 0 
+Search(31, 1, 32, from 0): lock  0 tick 31 : < 1 0 0 0 0 0 > --- 31 0 0 0 0 0 
+Search(32, 1, 33, from 1): lock  0 tick 32 : < 1 0 0 0 0 0 > --- 31 0 0 0 0 0 
+Search(33, 1, 34, from 1): lock  0 tick 33 : < 2 0 0 0 0 0 > --- 31 0 0 0 0 0 
+Search(34, 1, 35, from 2): lock  0 tick 34 : < 3 0 0 0 0 0 > --- 31 0 0 0 0 0 
+CRITICAL id 0 lock 0 tick 35 limit 1
+Search(35, 0, 36, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 31 0 0 0 0 0 
+Search(31, 1, 37, from 0): lock  1 tick 31 : < 0 1 0 0 0 0 > --- 26 31 0 0 0 0 
+Search(32, 1, 38, from 1): lock  1 tick 32 : < 0 1 0 0 0 0 > --- 26 31 0 0 0 0 
+Search(33, 1, 39, from 1): lock  1 tick 33 : < 0 2 0 0 0 0 > --- 26 31 0 0 0 0 
+Search(34, 1, 40, from 2): lock  1 tick 34 : < 0 3 0 0 0 0 > --- 26 31 0 0 0 0 
+CRITICAL id 1 lock 1 tick 35 limit 1
+Search(35, 0, 41, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 26 31 0 0 0 0 
+Search(31, 1, 42, from 0): lock  2 tick 31 : < 0 0 1 0 0 0 > --- 26 0 31 0 0 0 
+Search(32, 1, 43, from 1): lock  2 tick 32 : < 0 0 1 0 0 0 > --- 26 0 31 0 0 0 
+Search(33, 1, 44, from 1): lock  2 tick 33 : < 0 0 2 0 0 0 > --- 26 0 31 0 0 0 
+Search(34, 1, 45, from 2): lock  2 tick 34 : < 0 0 3 0 0 0 > --- 26 0 31 0 0 0 
+CRITICAL id 2 lock 2 tick 35 limit 1
+Search(35, 0, 46, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 26 0 31 0 0 0 
+Search(31, 1, 47, from 0): lock  3 tick 31 : < 0 0 0 1 0 0 > --- 26 0 0 31 0 0 
+Search(32, 1, 48, from 1): lock  3 tick 32 : < 0 0 0 1 0 0 > --- 26 0 0 31 0 0 
+Search(33, 1, 49, from 1): lock  3 tick 33 : < 0 0 0 2 0 0 > --- 26 0 0 31 0 0 
+Search(34, 1, 50, from 2): lock  3 tick 34 : < 0 0 0 3 0 0 > --- 26 0 0 31 0 0 
+CRITICAL id 3 lock 3 tick 35 limit 1
+Search(35, 0, 51, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 26 0 0 31 0 0 
+Search(31, 1, 52, from 0): lock  4 tick 31 : < 0 0 0 0 1 0 > --- 26 0 0 0 31 0 
+Search(32, 1, 53, from 1): lock  4 tick 32 : < 0 0 0 0 1 0 > --- 26 0 0 0 31 0 
+Search(33, 1, 54, from 1): lock  4 tick 33 : < 0 0 0 0 2 0 > --- 26 0 0 0 31 0 
+Search(34, 1, 55, from 2): lock  4 tick 34 : < 0 0 0 0 3 0 > --- 26 0 0 0 31 0 
+CRITICAL id 4 lock 4 tick 35 limit 1
+Search(35, 0, 56, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 26 0 0 0 31 0 
+Search(31, 1, 57, from 0): lock  5 tick 31 : < 0 0 0 0 0 1 > --- 26 0 0 0 0 31 
+Search(32, 1, 58, from 1): lock  5 tick 32 : < 0 0 0 0 0 1 > --- 26 0 0 0 0 31 
+Search(33, 1, 59, from 1): lock  5 tick 33 : < 0 0 0 0 0 2 > --- 26 0 0 0 0 31 
+Search(34, 1, 60, from 2): lock  5 tick 34 : < 0 0 0 0 0 3 > --- 26 0 0 0 0 31 
+CRITICAL id 5 lock 5 tick 35 limit 1
+Search(35, 0, 61, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 26 0 0 0 0 31 
+Search(26, 2, 62, from 0): lock  1 tick 26 : < 0 1 0 0 0 0 > --- 21 26 0 0 0 0 
+Search(27, 2, 63, from 1): lock  1 tick 27 : < 0 1 0 0 0 0 > --- 21 26 0 0 0 0 
+Search(28, 2, 64, from 1): lock  1 tick 28 : < 0 2 0 0 0 0 > --- 21 26 0 0 0 0 
+Search(29, 2, 65, from 2): lock  1 tick 29 : < 0 3 0 0 0 0 > --- 21 26 0 0 0 0 
+CRITICAL id 1 lock 1 tick 30 limit 2
+Search(30, 1, 66, from 3): lock -1 tick 30 : < 0 0 0 0 0 0 > --- 21 26 0 0 0 0 
+Search(31, 1, 67, from 0): lock  0 tick 31 : < 1 0 0 0 0 0 > --- 31 26 0 0 0 0 
+Search(32, 1, 68, from 1): lock  0 tick 32 : < 1 0 0 0 0 0 > --- 31 26 0 0 0 0 
+Search(33, 1, 69, from 1): lock  0 tick 33 : < 2 0 0 0 0 0 > --- 31 26 0 0 0 0 
+Search(34, 1, 70, from 2): lock  0 tick 34 : < 3 0 0 0 0 0 > --- 31 26 0 0 0 0 
+CRITICAL id 0 lock 0 tick 35 limit 1
+Search(35, 0, 71, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 31 26 0 0 0 0 
+Search(31, 1, 72, from 0): lock  1 tick 31 : < 0 1 0 0 0 0 > --- 21 31 0 0 0 0 
+Search(31, 1, 73, from 0): lock  2 tick 31 : < 0 0 1 0 0 0 > --- 21 26 31 0 0 0 
+Search(32, 1, 74, from 1): lock  2 tick 32 : < 0 0 1 0 0 0 > --- 21 26 31 0 0 0 
+Search(33, 1, 75, from 1): lock  2 tick 33 : < 0 0 2 0 0 0 > --- 21 26 31 0 0 0 
+Search(34, 1, 76, from 2): lock  2 tick 34 : < 0 0 3 0 0 0 > --- 21 26 31 0 0 0 
+CRITICAL id 2 lock 2 tick 35 limit 1
+Search(35, 0, 77, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 26 31 0 0 0 
+Search(31, 1, 78, from 0): lock  3 tick 31 : < 0 0 0 1 0 0 > --- 21 26 0 31 0 0 
+Search(32, 1, 79, from 1): lock  3 tick 32 : < 0 0 0 1 0 0 > --- 21 26 0 31 0 0 
+Search(33, 1, 80, from 1): lock  3 tick 33 : < 0 0 0 2 0 0 > --- 21 26 0 31 0 0 
+Search(34, 1, 81, from 2): lock  3 tick 34 : < 0 0 0 3 0 0 > --- 21 26 0 31 0 0 
+CRITICAL id 3 lock 3 tick 35 limit 1
+Search(35, 0, 82, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 26 0 31 0 0 
+Search(31, 1, 83, from 0): lock  4 tick 31 : < 0 0 0 0 1 0 > --- 21 26 0 0 31 0 
+Search(32, 1, 84, from 1): lock  4 tick 32 : < 0 0 0 0 1 0 > --- 21 26 0 0 31 0 
+Search(33, 1, 85, from 1): lock  4 tick 33 : < 0 0 0 0 2 0 > --- 21 26 0 0 31 0 
+Search(34, 1, 86, from 2): lock  4 tick 34 : < 0 0 0 0 3 0 > --- 21 26 0 0 31 0 
+CRITICAL id 4 lock 4 tick 35 limit 1
+Search(35, 0, 87, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 26 0 0 31 0 
+Search(31, 1, 88, from 0): lock  5 tick 31 : < 0 0 0 0 0 1 > --- 21 26 0 0 0 31 
+Search(32, 1, 89, from 1): lock  5 tick 32 : < 0 0 0 0 0 1 > --- 21 26 0 0 0 31 
+Search(33, 1, 90, from 1): lock  5 tick 33 : < 0 0 0 0 0 2 > --- 21 26 0 0 0 31 
+Search(34, 1, 91, from 2): lock  5 tick 34 : < 0 0 0 0 0 3 > --- 21 26 0 0 0 31 
+CRITICAL id 5 lock 5 tick 35 limit 1
+Search(35, 0, 92, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 26 0 0 0 31 
+Search(26, 2, 93, from 0): lock  2 tick 26 : < 0 0 1 0 0 0 > --- 21 0 26 0 0 0 
+Search(27, 2, 94, from 1): lock  2 tick 27 : < 0 0 1 0 0 0 > --- 21 0 26 0 0 0 
+Search(28, 2, 95, from 1): lock  2 tick 28 : < 0 0 2 0 0 0 > --- 21 0 26 0 0 0 
+Search(29, 2, 96, from 2): lock  2 tick 29 : < 0 0 3 0 0 0 > --- 21 0 26 0 0 0 
+CRITICAL id 2 lock 2 tick 30 limit 2
+Search(30, 1, 97, from 3): lock -1 tick 30 : < 0 0 0 0 0 0 > --- 21 0 26 0 0 0 
+Search(31, 1, 98, from 0): lock  0 tick 31 : < 1 0 0 0 0 0 > --- 31 0 26 0 0 0 
+Search(32, 1, 99, from 1): lock  0 tick 32 : < 1 0 0 0 0 0 > --- 31 0 26 0 0 0 
+Search(33, 1, 100, from 1): lock  0 tick 33 : < 2 0 0 0 0 0 > --- 31 0 26 0 0 0 
+Search(34, 1, 101, from 2): lock  0 tick 34 : < 3 0 0 0 0 0 > --- 31 0 26 0 0 0 
+CRITICAL id 0 lock 0 tick 35 limit 1
+Search(35, 0, 102, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 31 0 26 0 0 0 
+Search(31, 1, 103, from 0): lock  1 tick 31 : < 0 1 0 0 0 0 > --- 21 31 26 0 0 0 
+Search(32, 1, 104, from 1): lock  1 tick 32 : < 0 1 0 0 0 0 > --- 21 31 26 0 0 0 
+Search(33, 1, 105, from 1): lock  1 tick 33 : < 0 2 0 0 0 0 > --- 21 31 26 0 0 0 
+Search(34, 1, 106, from 2): lock  1 tick 34 : < 0 3 0 0 0 0 > --- 21 31 26 0 0 0 
+CRITICAL id 1 lock 1 tick 35 limit 1
+Search(35, 0, 107, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 31 26 0 0 0 
+Search(31, 1, 108, from 0): lock  2 tick 31 : < 0 0 1 0 0 0 > --- 21 0 31 0 0 0 
+Search(31, 1, 109, from 0): lock  3 tick 31 : < 0 0 0 1 0 0 > --- 21 0 26 31 0 0 
+Search(32, 1, 110, from 1): lock  3 tick 32 : < 0 0 0 1 0 0 > --- 21 0 26 31 0 0 
+Search(33, 1, 111, from 1): lock  3 tick 33 : < 0 0 0 2 0 0 > --- 21 0 26 31 0 0 
+Search(34, 1, 112, from 2): lock  3 tick 34 : < 0 0 0 3 0 0 > --- 21 0 26 31 0 0 
+CRITICAL id 3 lock 3 tick 35 limit 1
+Search(35, 0, 113, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 26 31 0 0 
+Search(31, 1, 114, from 0): lock  4 tick 31 : < 0 0 0 0 1 0 > --- 21 0 26 0 31 0 
+Search(32, 1, 115, from 1): lock  4 tick 32 : < 0 0 0 0 1 0 > --- 21 0 26 0 31 0 
+Search(33, 1, 116, from 1): lock  4 tick 33 : < 0 0 0 0 2 0 > --- 21 0 26 0 31 0 
+Search(34, 1, 117, from 2): lock  4 tick 34 : < 0 0 0 0 3 0 > --- 21 0 26 0 31 0 
+CRITICAL id 4 lock 4 tick 35 limit 1
+Search(35, 0, 118, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 26 0 31 0 
+Search(31, 1, 119, from 0): lock  5 tick 31 : < 0 0 0 0 0 1 > --- 21 0 26 0 0 31 
+Search(32, 1, 120, from 1): lock  5 tick 32 : < 0 0 0 0 0 1 > --- 21 0 26 0 0 31 
+Search(33, 1, 121, from 1): lock  5 tick 33 : < 0 0 0 0 0 2 > --- 21 0 26 0 0 31 
+Search(34, 1, 122, from 2): lock  5 tick 34 : < 0 0 0 0 0 3 > --- 21 0 26 0 0 31 
+CRITICAL id 5 lock 5 tick 35 limit 1
+Search(35, 0, 123, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 26 0 0 31 
+Search(26, 2, 124, from 0): lock  3 tick 26 : < 0 0 0 1 0 0 > --- 21 0 0 26 0 0 
+Search(27, 2, 125, from 1): lock  3 tick 27 : < 0 0 0 1 0 0 > --- 21 0 0 26 0 0 
+Search(28, 2, 126, from 1): lock  3 tick 28 : < 0 0 0 2 0 0 > --- 21 0 0 26 0 0 
+Search(29, 2, 127, from 2): lock  3 tick 29 : < 0 0 0 3 0 0 > --- 21 0 0 26 0 0 
+CRITICAL id 3 lock 3 tick 30 limit 2
+Search(30, 1, 128, from 3): lock -1 tick 30 : < 0 0 0 0 0 0 > --- 21 0 0 26 0 0 
+Search(31, 1, 129, from 0): lock  0 tick 31 : < 1 0 0 0 0 0 > --- 31 0 0 26 0 0 
+Search(32, 1, 130, from 1): lock  0 tick 32 : < 1 0 0 0 0 0 > --- 31 0 0 26 0 0 
+Search(33, 1, 131, from 1): lock  0 tick 33 : < 2 0 0 0 0 0 > --- 31 0 0 26 0 0 
+Search(34, 1, 132, from 2): lock  0 tick 34 : < 3 0 0 0 0 0 > --- 31 0 0 26 0 0 
+CRITICAL id 0 lock 0 tick 35 limit 1
+Search(35, 0, 133, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 31 0 0 26 0 0 
+Search(31, 1, 134, from 0): lock  1 tick 31 : < 0 1 0 0 0 0 > --- 21 31 0 26 0 0 
+Search(32, 1, 135, from 1): lock  1 tick 32 : < 0 1 0 0 0 0 > --- 21 31 0 26 0 0 
+Search(33, 1, 136, from 1): lock  1 tick 33 : < 0 2 0 0 0 0 > --- 21 31 0 26 0 0 
+Search(34, 1, 137, from 2): lock  1 tick 34 : < 0 3 0 0 0 0 > --- 21 31 0 26 0 0 
+CRITICAL id 1 lock 1 tick 35 limit 1
+Search(35, 0, 138, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 31 0 26 0 0 
+Search(31, 1, 139, from 0): lock  2 tick 31 : < 0 0 1 0 0 0 > --- 21 0 31 26 0 0 
+Search(32, 1, 140, from 1): lock  2 tick 32 : < 0 0 1 0 0 0 > --- 21 0 31 26 0 0 
+Search(33, 1, 141, from 1): lock  2 tick 33 : < 0 0 2 0 0 0 > --- 21 0 31 26 0 0 
+Search(34, 1, 142, from 2): lock  2 tick 34 : < 0 0 3 0 0 0 > --- 21 0 31 26 0 0 
+CRITICAL id 2 lock 2 tick 35 limit 1
+Search(35, 0, 143, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 31 26 0 0 
+Search(31, 1, 144, from 0): lock  3 tick 31 : < 0 0 0 1 0 0 > --- 21 0 0 31 0 0 
+Search(31, 1, 145, from 0): lock  4 tick 31 : < 0 0 0 0 1 0 > --- 21 0 0 26 31 0 
+Search(32, 1, 146, from 1): lock  4 tick 32 : < 0 0 0 0 1 0 > --- 21 0 0 26 31 0 
+Search(33, 1, 147, from 1): lock  4 tick 33 : < 0 0 0 0 2 0 > --- 21 0 0 26 31 0 
+Search(34, 1, 148, from 2): lock  4 tick 34 : < 0 0 0 0 3 0 > --- 21 0 0 26 31 0 
+CRITICAL id 4 lock 4 tick 35 limit 1
+Search(35, 0, 149, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 0 26 31 0 
+Search(31, 1, 150, from 0): lock  5 tick 31 : < 0 0 0 0 0 1 > --- 21 0 0 26 0 31 
+Search(32, 1, 151, from 1): lock  5 tick 32 : < 0 0 0 0 0 1 > --- 21 0 0 26 0 31 
+Search(33, 1, 152, from 1): lock  5 tick 33 : < 0 0 0 0 0 2 > --- 21 0 0 26 0 31 
+Search(34, 1, 153, from 2): lock  5 tick 34 : < 0 0 0 0 0 3 > --- 21 0 0 26 0 31 
+CRITICAL id 5 lock 5 tick 35 limit 1
+Search(35, 0, 154, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 0 26 0 31 
+Search(26, 2, 155, from 0): lock  4 tick 26 : < 0 0 0 0 1 0 > --- 21 0 0 0 26 0 
+Search(27, 2, 156, from 1): lock  4 tick 27 : < 0 0 0 0 1 0 > --- 21 0 0 0 26 0 
+Search(28, 2, 157, from 1): lock  4 tick 28 : < 0 0 0 0 2 0 > --- 21 0 0 0 26 0 
+Search(29, 2, 158, from 2): lock  4 tick 29 : < 0 0 0 0 3 0 > --- 21 0 0 0 26 0 
+CRITICAL id 4 lock 4 tick 30 limit 2
+Search(30, 1, 159, from 3): lock -1 tick 30 : < 0 0 0 0 0 0 > --- 21 0 0 0 26 0 
+Search(31, 1, 160, from 0): lock  0 tick 31 : < 1 0 0 0 0 0 > --- 31 0 0 0 26 0 
+Search(32, 1, 161, from 1): lock  0 tick 32 : < 1 0 0 0 0 0 > --- 31 0 0 0 26 0 
+Search(33, 1, 162, from 1): lock  0 tick 33 : < 2 0 0 0 0 0 > --- 31 0 0 0 26 0 
+Search(34, 1, 163, from 2): lock  0 tick 34 : < 3 0 0 0 0 0 > --- 31 0 0 0 26 0 
+CRITICAL id 0 lock 0 tick 35 limit 1
+Search(35, 0, 164, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 31 0 0 0 26 0 
+Search(31, 1, 165, from 0): lock  1 tick 31 : < 0 1 0 0 0 0 > --- 21 31 0 0 26 0 
+Search(32, 1, 166, from 1): lock  1 tick 32 : < 0 1 0 0 0 0 > --- 21 31 0 0 26 0 
+Search(33, 1, 167, from 1): lock  1 tick 33 : < 0 2 0 0 0 0 > --- 21 31 0 0 26 0 
+Search(34, 1, 168, from 2): lock  1 tick 34 : < 0 3 0 0 0 0 > --- 21 31 0 0 26 0 
+CRITICAL id 1 lock 1 tick 35 limit 1
+Search(35, 0, 169, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 31 0 0 26 0 
+Search(31, 1, 170, from 0): lock  2 tick 31 : < 0 0 1 0 0 0 > --- 21 0 31 0 26 0 
+Search(32, 1, 171, from 1): lock  2 tick 32 : < 0 0 1 0 0 0 > --- 21 0 31 0 26 0 
+Search(33, 1, 172, from 1): lock  2 tick 33 : < 0 0 2 0 0 0 > --- 21 0 31 0 26 0 
+Search(34, 1, 173, from 2): lock  2 tick 34 : < 0 0 3 0 0 0 > --- 21 0 31 0 26 0 
+CRITICAL id 2 lock 2 tick 35 limit 1
+Search(35, 0, 174, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 31 0 26 0 
+Search(31, 1, 175, from 0): lock  3 tick 31 : < 0 0 0 1 0 0 > --- 21 0 0 31 26 0 
+Search(32, 1, 176, from 1): lock  3 tick 32 : < 0 0 0 1 0 0 > --- 21 0 0 31 26 0 
+Search(33, 1, 177, from 1): lock  3 tick 33 : < 0 0 0 2 0 0 > --- 21 0 0 31 26 0 
+Search(34, 1, 178, from 2): lock  3 tick 34 : < 0 0 0 3 0 0 > --- 21 0 0 31 26 0 
+CRITICAL id 3 lock 3 tick 35 limit 1
+Search(35, 0, 179, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 0 31 26 0 
+Search(31, 1, 180, from 0): lock  4 tick 31 : < 0 0 0 0 1 0 > --- 21 0 0 0 31 0 
+Search(31, 1, 181, from 0): lock  5 tick 31 : < 0 0 0 0 0 1 > --- 21 0 0 0 26 31 
+Search(32, 1, 182, from 1): lock  5 tick 32 : < 0 0 0 0 0 1 > --- 21 0 0 0 26 31 
+Search(33, 1, 183, from 1): lock  5 tick 33 : < 0 0 0 0 0 2 > --- 21 0 0 0 26 31 
+Search(34, 1, 184, from 2): lock  5 tick 34 : < 0 0 0 0 0 3 > --- 21 0 0 0 26 31 
+CRITICAL id 5 lock 5 tick 35 limit 1
+Search(35, 0, 185, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 0 0 26 31 
+Search(26, 2, 186, from 0): lock  5 tick 26 : < 0 0 0 0 0 1 > --- 21 0 0 0 0 26 
+Search(27, 2, 187, from 1): lock  5 tick 27 : < 0 0 0 0 0 1 > --- 21 0 0 0 0 26 
+Search(28, 2, 188, from 1): lock  5 tick 28 : < 0 0 0 0 0 2 > --- 21 0 0 0 0 26 
+Search(29, 2, 189, from 2): lock  5 tick 29 : < 0 0 0 0 0 3 > --- 21 0 0 0 0 26 
+CRITICAL id 5 lock 5 tick 30 limit 2
+Search(30, 1, 190, from 3): lock -1 tick 30 : < 0 0 0 0 0 0 > --- 21 0 0 0 0 26 
+Search(31, 1, 191, from 0): lock  0 tick 31 : < 1 0 0 0 0 0 > --- 31 0 0 0 0 26 
+Search(32, 1, 192, from 1): lock  0 tick 32 : < 1 0 0 0 0 0 > --- 31 0 0 0 0 26 
+Search(33, 1, 193, from 1): lock  0 tick 33 : < 2 0 0 0 0 0 > --- 31 0 0 0 0 26 
+Search(34, 1, 194, from 2): lock  0 tick 34 : < 3 0 0 0 0 0 > --- 31 0 0 0 0 26 
+CRITICAL id 0 lock 0 tick 35 limit 1
+Search(35, 0, 195, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 31 0 0 0 0 26 
+Search(31, 1, 196, from 0): lock  1 tick 31 : < 0 1 0 0 0 0 > --- 21 31 0 0 0 26 
+Search(32, 1, 197, from 1): lock  1 tick 32 : < 0 1 0 0 0 0 > --- 21 31 0 0 0 26 
+Search(33, 1, 198, from 1): lock  1 tick 33 : < 0 2 0 0 0 0 > --- 21 31 0 0 0 26 
+Search(34, 1, 199, from 2): lock  1 tick 34 : < 0 3 0 0 0 0 > --- 21 31 0 0 0 26 
+CRITICAL id 1 lock 1 tick 35 limit 1
+Search(35, 0, 200, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 31 0 0 0 26 
+Search(31, 1, 201, from 0): lock  2 tick 31 : < 0 0 1 0 0 0 > --- 21 0 31 0 0 26 
+Search(32, 1, 202, from 1): lock  2 tick 32 : < 0 0 1 0 0 0 > --- 21 0 31 0 0 26 
+Search(33, 1, 203, from 1): lock  2 tick 33 : < 0 0 2 0 0 0 > --- 21 0 31 0 0 26 
+Search(34, 1, 204, from 2): lock  2 tick 34 : < 0 0 3 0 0 0 > --- 21 0 31 0 0 26 
+CRITICAL id 2 lock 2 tick 35 limit 1
+Search(35, 0, 205, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 31 0 0 26 
+Search(31, 1, 206, from 0): lock  3 tick 31 : < 0 0 0 1 0 0 > --- 21 0 0 31 0 26 
+Search(32, 1, 207, from 1): lock  3 tick 32 : < 0 0 0 1 0 0 > --- 21 0 0 31 0 26 
+Search(33, 1, 208, from 1): lock  3 tick 33 : < 0 0 0 2 0 0 > --- 21 0 0 31 0 26 
+Search(34, 1, 209, from 2): lock  3 tick 34 : < 0 0 0 3 0 0 > --- 21 0 0 31 0 26 
+CRITICAL id 3 lock 3 tick 35 limit 1
+Search(35, 0, 210, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 0 31 0 26 
+Search(31, 1, 211, from 0): lock  4 tick 31 : < 0 0 0 0 1 0 > --- 21 0 0 0 31 26 
+Search(32, 1, 212, from 1): lock  4 tick 32 : < 0 0 0 0 1 0 > --- 21 0 0 0 31 26 
+Search(33, 1, 213, from 1): lock  4 tick 33 : < 0 0 0 0 2 0 > --- 21 0 0 0 31 26 
+Search(34, 1, 214, from 2): lock  4 tick 34 : < 0 0 0 0 3 0 > --- 21 0 0 0 31 26 
+CRITICAL id 4 lock 4 tick 35 limit 1
+Search(35, 0, 215, from 3): lock -1 tick 35 : < 0 0 0 0 0 0 > --- 21 0 0 0 31 26 
+Search(31, 1, 216, from 0): lock  5 tick 31 : < 0 0 0 0 0 1 > --- 21 0 0 0 0 31 
+Search(21, 3, 217, from 0): lock  1 tick 21 : < 0 1 0 0 0 0 > --- 16 21 0 0 0 0 
+Search(22, 3, 218, from 1): lock  1 tick 22 : < 0 1 0 0 0 0 > --- 16 21 0 0 0 0 
+Search(23, 3, 219, from 1): lock  1 tick 23 : < 0 2 0 0 0 0 > --- 16 21 0 0 0 0 
+Search(24, 3, 220, from 2): lock  1 tick 24 : < 0 3 0 0 0 0 > --- 16 21 0 0 0 0 
+CRITICAL id 1 lock 1 tick 25 limit 3
+Search(25, 2, 221, from 3): lock -1 tick 25 : < 0 0 0 0 0 0 > --- 16 21 0 0 0 0 
+Search(21, 3, 222, from 0): lock  2 tick 21 : < 0 0 1 0 0 0 > --- 16 0 21 0 0 0 
+Search(22, 3, 223, from 1): lock  2 tick 22 : < 0 0 1 0 0 0 > --- 16 0 21 0 0 0 
+Search(23, 3, 224, from 1): lock  2 tick 23 : < 0 0 2 0 0 0 > --- 16 0 21 0 0 0 
+Search(24, 3, 225, from 2): lock  2 tick 24 : < 0 0 3 0 0 0 > --- 16 0 21 0 0 0 
+CRITICAL id 2 lock 2 tick 25 limit 3
+Search(25, 2, 226, from 3): lock -1 tick 25 : < 0 0 0 0 0 0 > --- 16 0 21 0 0 0 
+Search(21, 3, 227, from 0): lock  3 tick 21 : < 0 0 0 1 0 0 > --- 16 0 0 21 0 0 
+Search(22, 3, 228, from 1): lock  3 tick 22 : < 0 0 0 1 0 0 > --- 16 0 0 21 0 0 
+Search(23, 3, 229, from 1): lock  3 tick 23 : < 0 0 0 2 0 0 > --- 16 0 0 21 0 0 
+Search(24, 3, 230, from 2): lock  3 tick 24 : < 0 0 0 3 0 0 > --- 16 0 0 21 0 0 
+CRITICAL id 3 lock 3 tick 25 limit 3
+Search(25, 2, 231, from 3): lock -1 tick 25 : < 0 0 0 0 0 0 > --- 16 0 0 21 0 0 
+Search(21, 3, 232, from 0): lock  4 tick 21 : < 0 0 0 0 1 0 > --- 16 0 0 0 21 0 
+Search(22, 3, 233, from 1): lock  4 tick 22 : < 0 0 0 0 1 0 > --- 16 0 0 0 21 0 
+Search(23, 3, 234, from 1): lock  4 tick 23 : < 0 0 0 0 2 0 > --- 16 0 0 0 21 0 
+Search(24, 3, 235, from 2): lock  4 tick 24 : < 0 0 0 0 3 0 > --- 16 0 0 0 21 0 
+CRITICAL id 4 lock 4 tick 25 limit 3
+Search(25, 2, 236, from 3): lock -1 tick 25 : < 0 0 0 0 0 0 > --- 16 0 0 0 21 0 
+Search(21, 3, 237, from 0): lock  5 tick 21 : < 0 0 0 0 0 1 > --- 16 0 0 0 0 21 
+Search(22, 3, 238, from 1): lock  5 tick 22 : < 0 0 0 0 0 1 > --- 16 0 0 0 0 21 
+Search(23, 3, 239, from 1): lock  5 tick 23 : < 0 0 0 0 0 2 > --- 16 0 0 0 0 21 
+Search(24, 3, 240, from 2): lock  5 tick 24 : < 0 0 0 0 0 3 > --- 16 0 0 0 0 21 
+CRITICAL id 5 lock 5 tick 25 limit 3
+Search(25, 2, 241, from 3): lock -1 tick 25 : < 0 0 0 0 0 0 > --- 16 0 0 0 0 21 
+Search(16, 4, 242, from 0): lock  1 tick 16 : < 0 1 0 0 0 0 > --- 11 16 0 0 0 0 
+Search(17, 4, 243, from 1): lock  1 tick 17 : < 0 1 0 0 0 0 > --- 11 16 0 0 0 0 
+Search(18, 4, 244, from 1): lock  1 tick 18 : < 0 2 0 0 0 0 > --- 11 16 0 0 0 0 
+Search(19, 4, 245, from 2): lock  1 tick 19 : < 0 3 0 0 0 0 > --- 11 16 0 0 0 0 
+CRITICAL id 1 lock 1 tick 20 limit 4
+Search(20, 3, 246, from 3): lock -1 tick 20 : < 0 0 0 0 0 0 > --- 11 16 0 0 0 0 
+Search(16, 4, 247, from 0): lock  2 tick 16 : < 0 0 1 0 0 0 > --- 11 0 16 0 0 0 
+Search(17, 4, 248, from 1): lock  2 tick 17 : < 0 0 1 0 0 0 > --- 11 0 16 0 0 0 
+Search(18, 4, 249, from 1): lock  2 tick 18 : < 0 0 2 0 0 0 > --- 11 0 16 0 0 0 
+Search(19, 4, 250, from 2): lock  2 tick 19 : < 0 0 3 0 0 0 > --- 11 0 16 0 0 0 
+CRITICAL id 2 lock 2 tick 20 limit 4
+Search(20, 3, 251, from 3): lock -1 tick 20 : < 0 0 0 0 0 0 > --- 11 0 16 0 0 0 
+Search(16, 4, 252, from 0): lock  3 tick 16 : < 0 0 0 1 0 0 > --- 11 0 0 16 0 0 
+Search(17, 4, 253, from 1): lock  3 tick 17 : < 0 0 0 1 0 0 > --- 11 0 0 16 0 0 
+Search(18, 4, 254, from 1): lock  3 tick 18 : < 0 0 0 2 0 0 > --- 11 0 0 16 0 0 
+Search(19, 4, 255, from 2): lock  3 tick 19 : < 0 0 0 3 0 0 > --- 11 0 0 16 0 0 
+CRITICAL id 3 lock 3 tick 20 limit 4
+Search(20, 3, 256, from 3): lock -1 tick 20 : < 0 0 0 0 0 0 > --- 11 0 0 16 0 0 
+Search(16, 4, 257, from 0): lock  4 tick 16 : < 0 0 0 0 1 0 > --- 11 0 0 0 16 0 
+Search(17, 4, 258, from 1): lock  4 tick 17 : < 0 0 0 0 1 0 > --- 11 0 0 0 16 0 
+Search(18, 4, 259, from 1): lock  4 tick 18 : < 0 0 0 0 2 0 > --- 11 0 0 0 16 0 
+Search(19, 4, 260, from 2): lock  4 tick 19 : < 0 0 0 0 3 0 > --- 11 0 0 0 16 0 
+CRITICAL id 4 lock 4 tick 20 limit 4
+Search(20, 3, 261, from 3): lock -1 tick 20 : < 0 0 0 0 0 0 > --- 11 0 0 0 16 0 
+Search(16, 4, 262, from 0): lock  5 tick 16 : < 0 0 0 0 0 1 > --- 11 0 0 0 0 16 
+Search(17, 4, 263, from 1): lock  5 tick 17 : < 0 0 0 0 0 1 > --- 11 0 0 0 0 16 
+Search(18, 4, 264, from 1): lock  5 tick 18 : < 0 0 0 0 0 2 > --- 11 0 0 0 0 16 
+Search(19, 4, 265, from 2): lock  5 tick 19 : < 0 0 0 0 0 3 > --- 11 0 0 0 0 16 
+CRITICAL id 5 lock 5 tick 20 limit 4
+Search(20, 3, 266, from 3): lock -1 tick 20 : < 0 0 0 0 0 0 > --- 11 0 0 0 0 16 
+Search(11, 5, 267, from 0): lock  1 tick 11 : < 0 1 0 0 0 0 > --- 6 11 0 0 0 0 
+Search(12, 5, 268, from 1): lock  1 tick 12 : < 0 1 0 0 0 0 > --- 6 11 0 0 0 0 
+Search(13, 5, 269, from 1): lock  1 tick 13 : < 0 2 0 0 0 0 > --- 6 11 0 0 0 0 
+Search(14, 5, 270, from 2): lock  1 tick 14 : < 0 3 0 0 0 0 > --- 6 11 0 0 0 0 
+CRITICAL id 1 lock 1 tick 15 limit 5
+Search(15, 4, 271, from 3): lock -1 tick 15 : < 0 0 0 0 0 0 > --- 6 11 0 0 0 0 
+Search(11, 5, 272, from 0): lock  2 tick 11 : < 0 0 1 0 0 0 > --- 6 0 11 0 0 0 
+Search(12, 5, 273, from 1): lock  2 tick 12 : < 0 0 1 0 0 0 > --- 6 0 11 0 0 0 
+Search(13, 5, 274, from 1): lock  2 tick 13 : < 0 0 2 0 0 0 > --- 6 0 11 0 0 0 
+Search(14, 5, 275, from 2): lock  2 tick 14 : < 0 0 3 0 0 0 > --- 6 0 11 0 0 0 
+CRITICAL id 2 lock 2 tick 15 limit 5
+Search(15, 4, 276, from 3): lock -1 tick 15 : < 0 0 0 0 0 0 > --- 6 0 11 0 0 0 
+Search(11, 5, 277, from 0): lock  3 tick 11 : < 0 0 0 1 0 0 > --- 6 0 0 11 0 0 
+Search(12, 5, 278, from 1): lock  3 tick 12 : < 0 0 0 1 0 0 > --- 6 0 0 11 0 0 
+Search(13, 5, 279, from 1): lock  3 tick 13 : < 0 0 0 2 0 0 > --- 6 0 0 11 0 0 
+Search(14, 5, 280, from 2): lock  3 tick 14 : < 0 0 0 3 0 0 > --- 6 0 0 11 0 0 
+CRITICAL id 3 lock 3 tick 15 limit 5
+Search(15, 4, 281, from 3): lock -1 tick 15 : < 0 0 0 0 0 0 > --- 6 0 0 11 0 0 
+Search(11, 5, 282, from 0): lock  4 tick 11 : < 0 0 0 0 1 0 > --- 6 0 0 0 11 0 
+Search(12, 5, 283, from 1): lock  4 tick 12 : < 0 0 0 0 1 0 > --- 6 0 0 0 11 0 
+Search(13, 5, 284, from 1): lock  4 tick 13 : < 0 0 0 0 2 0 > --- 6 0 0 0 11 0 
+Search(14, 5, 285, from 2): lock  4 tick 14 : < 0 0 0 0 3 0 > --- 6 0 0 0 11 0 
+CRITICAL id 4 lock 4 tick 15 limit 5
+Search(15, 4, 286, from 3): lock -1 tick 15 : < 0 0 0 0 0 0 > --- 6 0 0 0 11 0 
+Search(11, 5, 287, from 0): lock  5 tick 11 : < 0 0 0 0 0 1 > --- 6 0 0 0 0 11 
+Search(12, 5, 288, from 1): lock  5 tick 12 : < 0 0 0 0 0 1 > --- 6 0 0 0 0 11 
+Search(13, 5, 289, from 1): lock  5 tick 13 : < 0 0 0 0 0 2 > --- 6 0 0 0 0 11 
+Search(14, 5, 290, from 2): lock  5 tick 14 : < 0 0 0 0 0 3 > --- 6 0 0 0 0 11 
+CRITICAL id 5 lock 5 tick 15 limit 5
+Search(15, 4, 291, from 3): lock -1 tick 15 : < 0 0 0 0 0 0 > --- 6 0 0 0 0 11 
+Search(6, 6, 292, from 0): lock  1 tick 6 : < 0 1 0 0 0 0 > --- 1 6 0 0 0 0 
+Search(7, 6, 293, from 1): lock  1 tick 7 : < 0 1 0 0 0 0 > --- 1 6 0 0 0 0 
+Search(8, 6, 294, from 1): lock  1 tick 8 : < 0 2 0 0 0 0 > --- 1 6 0 0 0 0 
+Search(9, 6, 295, from 2): lock  1 tick 9 : < 0 3 0 0 0 0 > --- 1 6 0 0 0 0 
+CRITICAL id 1 lock 1 tick 10 limit 6
+Search(10, 5, 296, from 3): lock -1 tick 10 : < 0 0 0 0 0 0 > --- 1 6 0 0 0 0 
+Search(6, 6, 297, from 0): lock  2 tick 6 : < 0 0 1 0 0 0 > --- 1 0 6 0 0 0 
+Search(7, 6, 298, from 1): lock  2 tick 7 : < 0 0 1 0 0 0 > --- 1 0 6 0 0 0 
+Search(8, 6, 299, from 1): lock  2 tick 8 : < 0 0 2 0 0 0 > --- 1 0 6 0 0 0 
+Search(9, 6, 300, from 2): lock  2 tick 9 : < 0 0 3 0 0 0 > --- 1 0 6 0 0 0 
+CRITICAL id 2 lock 2 tick 10 limit 6
+Search(10, 5, 301, from 3): lock -1 tick 10 : < 0 0 0 0 0 0 > --- 1 0 6 0 0 0 
+Search(6, 6, 302, from 0): lock  3 tick 6 : < 0 0 0 1 0 0 > --- 1 0 0 6 0 0 
+Search(7, 6, 303, from 1): lock  3 tick 7 : < 0 0 0 1 0 0 > --- 1 0 0 6 0 0 
+Search(8, 6, 304, from 1): lock  3 tick 8 : < 0 0 0 2 0 0 > --- 1 0 0 6 0 0 
+Search(9, 6, 305, from 2): lock  3 tick 9 : < 0 0 0 3 0 0 > --- 1 0 0 6 0 0 
+CRITICAL id 3 lock 3 tick 10 limit 6
+Search(10, 5, 306, from 3): lock -1 tick 10 : < 0 0 0 0 0 0 > --- 1 0 0 6 0 0 
+Search(6, 6, 307, from 0): lock  4 tick 6 : < 0 0 0 0 1 0 > --- 1 0 0 0 6 0 
+Search(7, 6, 308, from 1): lock  4 tick 7 : < 0 0 0 0 1 0 > --- 1 0 0 0 6 0 
+Search(8, 6, 309, from 1): lock  4 tick 8 : < 0 0 0 0 2 0 > --- 1 0 0 0 6 0 
+Search(9, 6, 310, from 2): lock  4 tick 9 : < 0 0 0 0 3 0 > --- 1 0 0 0 6 0 
+CRITICAL id 4 lock 4 tick 10 limit 6
+Search(10, 5, 311, from 3): lock -1 tick 10 : < 0 0 0 0 0 0 > --- 1 0 0 0 6 0 
+Search(6, 6, 312, from 0): lock  5 tick 6 : < 0 0 0 0 0 1 > --- 1 0 0 0 0 6 
+Search(7, 6, 313, from 1): lock  5 tick 7 : < 0 0 0 0 0 1 > --- 1 0 0 0 0 6 
+Search(8, 6, 314, from 1): lock  5 tick 8 : < 0 0 0 0 0 2 > --- 1 0 0 0 0 6 
+Search(9, 6, 315, from 2): lock  5 tick 9 : < 0 0 0 0 0 3 > --- 1 0 0 0 0 6 
+CRITICAL id 5 lock 5 tick 10 limit 6
+Search(10, 5, 316, from 3): lock -1 tick 10 : < 0 0 0 0 0 0 > --- 1 0 0 0 0 6 
+Search(1, 7, 317, from 0): lock  1 tick 1 : < 0 1 0 0 0 0 > --- 0 1 0 0 0 0 
+Search(2, 7, 318, from 1): lock  1 tick 2 : < 0 1 0 0 0 0 > --- 0 1 0 0 0 0 
+Search(3, 7, 319, from 1): lock  1 tick 3 : < 0 2 0 0 0 0 > --- 0 1 0 0 0 0 
+Search(4, 7, 320, from 2): lock  1 tick 4 : < 0 3 0 0 0 0 > --- 0 1 0 0 0 0 
+CRITICAL id 1 lock 1 tick 5 limit 7
+Search(5, 6, 321, from 3): lock -1 tick 5 : < 0 0 0 0 0 0 > --- 0 1 0 0 0 0 
+Search(1, 7, 322, from 0): lock  2 tick 1 : < 0 0 1 0 0 0 > --- 0 0 1 0 0 0 
+Search(2, 7, 323, from 1): lock  2 tick 2 : < 0 0 1 0 0 0 > --- 0 0 1 0 0 0 
+Search(3, 7, 324, from 1): lock  2 tick 3 : < 0 0 2 0 0 0 > --- 0 0 1 0 0 0 
+Search(4, 7, 325, from 2): lock  2 tick 4 : < 0 0 3 0 0 0 > --- 0 0 1 0 0 0 
+CRITICAL id 2 lock 2 tick 5 limit 7
+Search(5, 6, 326, from 3): lock -1 tick 5 : < 0 0 0 0 0 0 > --- 0 0 1 0 0 0 
+Search(1, 7, 327, from 0): lock  3 tick 1 : < 0 0 0 1 0 0 > --- 0 0 0 1 0 0 
+Search(2, 7, 328, from 1): lock  3 tick 2 : < 0 0 0 1 0 0 > --- 0 0 0 1 0 0 
+Search(3, 7, 329, from 1): lock  3 tick 3 : < 0 0 0 2 0 0 > --- 0 0 0 1 0 0 
+Search(4, 7, 330, from 2): lock  3 tick 4 : < 0 0 0 3 0 0 > --- 0 0 0 1 0 0 
+CRITICAL id 3 lock 3 tick 5 limit 7
+Search(5, 6, 331, from 3): lock -1 tick 5 : < 0 0 0 0 0 0 > --- 0 0 0 1 0 0 
+Search(1, 7, 332, from 0): lock  4 tick 1 : < 0 0 0 0 1 0 > --- 0 0 0 0 1 0 
+Search(2, 7, 333, from 1): lock  4 tick 2 : < 0 0 0 0 1 0 > --- 0 0 0 0 1 0 
+Search(3, 7, 334, from 1): lock  4 tick 3 : < 0 0 0 0 2 0 > --- 0 0 0 0 1 0 
+Search(4, 7, 335, from 2): lock  4 tick 4 : < 0 0 0 0 3 0 > --- 0 0 0 0 1 0 
+CRITICAL id 4 lock 4 tick 5 limit 7
+Search(5, 6, 336, from 3): lock -1 tick 5 : < 0 0 0 0 0 0 > --- 0 0 0 0 1 0 
+Search(1, 7, 337, from 0): lock  5 tick 1 : < 0 0 0 0 0 1 > --- 0 0 0 0 0 1 
+Search(2, 7, 338, from 1): lock  5 tick 2 : < 0 0 0 0 0 1 > --- 0 0 0 0 0 1 
+Search(3, 7, 339, from 1): lock  5 tick 3 : < 0 0 0 0 0 2 > --- 0 0 0 0 0 1 
+Search(4, 7, 340, from 2): lock  5 tick 4 : < 0 0 0 0 0 3 > --- 0 0 0 0 0 1 
+CRITICAL id 5 lock 5 tick 5 limit 7
+Search(5, 6, 341, from 3): lock -1 tick 5 : < 0 0 0 0 0 0 > --- 0 0 0 0 0 1 
+FINAL: Searchspace 341 Table 19 Subcount 30 Nosub 280

@@ -1,0 +1,108 @@
+0file procon.c line 28 function search: syntax error before `{'
+PARSING ERROR
+
+real	0m0.040s
+user	0m0.015s
+sys	0m0.008s
+file procon.c line 16 function search: function has return void but a return statement returning signed int
+file procon.c line 24 function search: function `check_buffer' is not declared
+file procon.c line 26 function search: function has return void but a return statement returning signed int
+
+real	0m0.039s
+user	0m0.033s
+sys	0m0.007s
+
+real	0m0.036s
+user	0m0.034s
+sys	0m0.003s
+Running N:2, B:3
+
+real	0m0.051s
+user	0m0.048s
+sys	0m0.004s
+Running N:2, B:3
+
+real	0m0.046s
+user	0m0.046s
+sys	0m0.001s
+Running N:3, B:3
+
+real	0m0.059s
+user	0m0.049s
+sys	0m0.011s
+Running N:4, B:3
+
+real	0m0.104s
+user	0m0.101s
+sys	0m0.004s
+Running N:5, B:3
+
+real	0m0.262s
+user	0m0.262s
+sys	0m0.002s
+Running N:6, B:3
+
+real	0m0.751s
+user	0m0.738s
+sys	0m0.011s
+Running N:4, B:4
+
+real	0m0.118s
+user	0m0.116s
+sys	0m0.003s
+Running N:5, B:4
+
+real	0m0.340s
+user	0m0.328s
+sys	0m0.013s
+Running N:6, B:4
+
+real	0m1.105s
+user	0m1.088s
+sys	0m0.012s
+Running N:7, B:4
+
+real	0m4.671s
+user	0m4.617s
+sys	0m0.055s
+Running N:8, B:4
+
+real	0m23.514s
+user	0m23.390s
+sys	0m0.125s
+Running N:5, B:5
+
+real	0m0.316s
+user	0m0.303s
+sys	0m0.013s
+Running N:6, B:5
+
+real	0m1.228s
+user	0m1.203s
+sys	0m0.020s
+Running N:7, B:5
+
+real	0m6.067s
+user	0m6.040s
+sys	0m0.028s
+Running N:8, B:5
+
+real	0m33.302s
+user	0m33.050s
+sys	0m0.108s
+Running N:10, B:5
+Running N:12, B:6
+Running N:9, B:5
+
+real	8m20.178s
+user	8m19.198s
+sys	0m0.568s
+
+real	60m0.868s
+user	59m55.676s
+sys	0m1.728s
+Running N:14, B:7
+
+real	60m0.868s
+user	59m55.815s
+sys	0m3.471s

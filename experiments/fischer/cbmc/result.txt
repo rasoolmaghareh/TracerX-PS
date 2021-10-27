@@ -1,0 +1,224 @@
+file fischer2-3.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer2-3' file fischer2-3.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.675s
+user	0m0.665s
+sys	0m0.011s
+file fischer2-3.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer2-3' file fischer2-3.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.715s
+user	0m0.628s
+sys	0m0.011s
+file fischer2-3.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer2-3' file fischer2-3.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.643s
+user	0m0.625s
+sys	0m0.013s
+file fischer3-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer3-6' file fischer3-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	9m52.026s
+user	9m49.928s
+sys	0m1.810s
+file fischer6-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer6-6' file fischer6-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	21m31.480s
+user	21m30.836s
+sys	0m0.621s
+file fischer6-10.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer6-10' file fischer6-10.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	288m35.700s
+user	276m1.796s
+sys	0m12.476s
+file fischer10-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer10-6' file fischer10-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	45m29.966s
+user	45m25.607s
+sys	0m2.374s
+
+================================================================================
+RUN 2:
+================================================================================
+file fischer2-3.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer2-3' file fischer2-3.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	0m0.558s
+user	0m0.535s
+sys	0m0.025s
+file fischer3-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer3-6' file fischer3-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	9m11.704s
+user	9m10.820s
+sys	0m0.801s
+file fischer4-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer4-6' file fischer4-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	12m40.108s
+user	12m38.971s
+sys	0m0.760s
+file fischer5-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer5-6' file fischer5-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	15m55.017s
+user	15m54.296s
+sys	0m0.658s
+file fischer6-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer6-6' file fischer6-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	19m49.526s
+user	19m48.686s
+sys	0m0.772s
+file fischer7-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer7-6' file fischer7-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	24m39.248s
+user	24m38.188s
+sys	0m0.819s
+file fischer8-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer8-6' file fischer8-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	29m47.041s
+user	29m45.971s
+sys	0m0.911s
+file fischer9-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer9-6' file fischer9-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	35m24.165s
+user	35m23.158s
+sys	0m0.906s
+file fischer10-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer10-6' file fischer10-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	41m36.668s
+user	41m35.330s
+sys	0m1.205s
+file fischer6-7.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer6-7' file fischer6-7.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	60m0.748s
+user	59m59.189s
+sys	0m1.329s
+file fischer6-8.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer6-8' file fischer6-8.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	60m0.753s
+user	59m58.692s
+sys	0m1.743s
+file fischer6-9.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer6-9' file fischer6-9.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	353m54.166s
+user	59m58.526s
+sys	0m1.414s
+file fischer6-10.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer6-10' file fischer6-10.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	1m3.985s
+user	1m3.777s
+sys	0m0.193s
+file fischer11-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer11-6' file fischer11-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	48m18.910s
+user	48m17.053s
+sys	0m1.466s
+file fischer12-6.c line 32 function check_mutual_exclusion: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `fischer12-6' file fischer12-6.c line 32 function check_mutual_exclusion
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+
+real	50m9.263s
+user	50m7.185s
+sys	0m1.400s

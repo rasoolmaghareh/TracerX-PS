@@ -1,0 +1,80 @@
+Running Limit:1
+file railroad.c line 29 function search: function `tick' is not declared
+file railroad.c line 32 function search: function `train' is not declared
+file railroad.c line 33 function search: function `gate' is not declared
+file railroad.c line 34 function search: function `controller' is not declared
+file railroad.c line 52 function train: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `railroad' file railroad.c line 52 function train
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+**** WARNING: no body for function klee_range
+
+real	62m9.570s
+user	57m27.822s
+sys	0m14.538s
+Running Limit:2
+file railroad.c line 29 function search: function `tick' is not declared
+file railroad.c line 32 function search: function `train' is not declared
+file railroad.c line 33 function search: function `gate' is not declared
+file railroad.c line 34 function search: function `controller' is not declared
+file railroad.c line 52 function train: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `railroad' file railroad.c line 52 function train
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+**** WARNING: no body for function klee_range
+
+real	62m41.543s
+user	56m22.169s
+sys	0m14.065s
+Running Limit:3
+file railroad.c line 29 function search: function `tick' is not declared
+file railroad.c line 32 function search: function `train' is not declared
+file railroad.c line 33 function search: function `gate' is not declared
+file railroad.c line 34 function search: function `controller' is not declared
+file railroad.c line 52 function train: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `railroad' file railroad.c line 52 function train
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+**** WARNING: no body for function klee_range
+
+real	62m35.698s
+user	56m8.691s
+sys	0m14.152s
+Running Limit:4
+file railroad.c line 29 function search: function `tick' is not declared
+file railroad.c line 32 function search: function `train' is not declared
+file railroad.c line 33 function search: function `gate' is not declared
+file railroad.c line 34 function search: function `controller' is not declared
+file railroad.c line 52 function train: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `railroad' file railroad.c line 52 function train
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+**** WARNING: no body for function klee_range
+
+real	62m36.927s
+user	55m43.434s
+sys	0m13.917s
+Running Limit:5
+file railroad.c line 29 function search: function `tick' is not declared
+file railroad.c line 32 function search: function `train' is not declared
+file railroad.c line 33 function search: function `gate' is not declared
+file railroad.c line 34 function search: function `controller' is not declared
+file railroad.c line 52 function train: function `exit' is not declared
+file <builtin-library-exit> line 4: error: implicit function declaration `exit'
+old definition in module `railroad' file railroad.c line 52 function train
+signed int (void)
+new definition in module `<built-in-library>' file <builtin-library-exit> line 4
+void (signed int status)
+**** WARNING: no body for function klee_range
+
+real	24m3.715s
+user	23m53.363s
+sys	0m7.076s
